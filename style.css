@@ -1,0 +1,122 @@
+:root{
+    --maincolor: rgb(67, 150, 93);
+    --maincolorhover:rgba(67, 150, 93, 0.544);
+    --inputcolor: rgba(128, 128, 128, 0.501);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Imgaes/background.jpg);
+    background-size: 200vh;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#logo{
+    width: 35%;
+    display: block;
+    height: 100vh;
+    float: left;
+}
+
+#logoImg{
+    display: block;
+    width: 70%;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+#imgContainer{
+    display: block;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+#formContainer{
+    width: 65%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.750);
+    overflow: hidden;
+    float: right;
+}
+
+#info{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#info p{
+    font-size: 250%;
+}
+
+#signUp{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10vh;
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.inputFieldName{
+    margin-bottom: 5px;
+}
+
+.loginForm{
+    width: 50%;
+    text-align: center;
+}
+
+#signUp input{
+    width: 70%;
+    max-width: 200px;
+    font-size: 125%;
+    border-radius: 10px;
+    font-size: 110%;
+    overflow: hidden;
+    padding-inline: 10px;
+    margin-bottom: 2.5vh;
+}
+
+#signUpButtonContainer{
+    text-align: center;
+    margin: 15px;
+}
+
+#signUpButtonContainer p{
+    font-size: 10px;
+}
+
+#signUpButton{
+    background-color: var(--maincolor);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 20%;
+    max-width: 150px;
+    padding: 5px;
+    font-size: 110%;
+}
+
+#signUpButton:hover{
+    background-color: var(--maincolorhover);
+    cursor: pointer;
+}
+
+#logInLink{
+    text-decoration: none;
+    color: var(--maincolor);
+}
+
+#logInLink:hover{
+    color: var(--maincolorhover);
+}
+
+#footText{
+    text-align: center;
+    margin-top: 35vh;
+    font-size: 12px;
+}
